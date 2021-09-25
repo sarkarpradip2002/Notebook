@@ -2,7 +2,6 @@ import {React,useContext} from 'react'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router'
 import Notecontext from '../Context/Notecontext';
-import { useEffect } from 'react';
 
 export default function Navbar(props) {
   const context=useContext(Notecontext);
